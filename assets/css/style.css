@@ -1,0 +1,81 @@
+body {
+    background-image: url("images/iron-throne.jpg");
+    height: 100%;
+    background-size: 50%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.jumbotron {
+    /* background-image: url("images/tyrion-header.png"); */
+    background: transparent;
+    background-size: 85%;
+    text-align: center;
+    font-family: 'Nova Flat', cursive;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.game-title {
+    font-size: 26px;
+    padding:0px 0 20px 0;
+    color: white;
+    opacity: 1.0;
+}
+.sub-header {
+    font-size: 18px;
+    color: white;
+    opacity: 1.0;
+    padding-top: 15px;
+}
+
+/* main body font */
+.container {
+    text-align: center;
+    font-family: 'Nova Flat', cursive;
+}
+
+/* win tally box */
+#win-box {
+    padding: 20px 0 20px 0;
+    background: white;
+    margin-top: 20px;
+}
+
+.win-title {
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+}
+
+/* row 2 text */
+#bottom-row {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#bottom-row {
+    margin-top: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#wrongLtrs {
+    border-right: 2px solid white;
+}
+
+/* buttons*/
+.get-word-box {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.getWordBTN {
+    padding: 8px;
+    margin-right: 55px;
+}
+
+.resetGameBTN {
+    padding: 8px;
+}
+
