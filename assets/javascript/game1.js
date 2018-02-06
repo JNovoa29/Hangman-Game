@@ -1,3 +1,7 @@
+//Current issues:
+// limited button functionality, words are not generated along with the spaces that should appear when the game has started
+//getting keyboard event error message stating not defined when the enter button is pressed
+//unable to determine whether the number of wins will calculate properly as a result of the first issue
 $(document).ready(function () {
 
     var wins = 0
@@ -118,12 +122,12 @@ $(document).ready(function () {
     })
 
 
-    $(document).keypress(function (e) {
-        if (e.which == 13) {
-            $(".inputBTN").on()
-        }
-        console.log(keypress())
-    })
+    // $(document).keypress(function (e) {
+    //     if (e.which == 13) {
+    //         $(".inputBTN").on()
+    //     }
+    //     console.log(keypress())
+    // })
 
     //checks and balances in events
     $("#inputBTN").on("click", function () {

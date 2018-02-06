@@ -35,11 +35,40 @@ body {
     font-family: 'Nova Flat', cursive;
 }
 
+/* generate/reset buttons */
+.get-word-box {
+    margin-bottom: 185px;
+}
+
+.getWordBTN {
+    border-radius: 12px;
+}
+
+.resetGameBTN {
+    border-radius: 12px;
+}
+
+/* guess bar button & text space*/
+.inputBTN {
+    border-radius: 12px;
+    margin-top: 120px;
+}
+
+#userInput {
+    border-radius: 8px;
+    margin-top: 120px;
+
+}
+
 /* win tally box */
 #win-box {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 20px 15px;
     background: white;
-    margin-top: 20px;
+    margin: auto;
+    margin-left: 123px;
+    margin-right: 120px;
+    margin-top: 150px;
+    border-radius: 12px;
 }
 
 .win-title {
@@ -51,19 +80,13 @@ body {
 /* row 2 text */
 #bottom-row {
     text-align: center;
+    font-size: 20px;
     margin-bottom: 30px;
     color: white;
-}
-
-#bottom-row {
     margin-top: 20px;
     border-top: 2px solid white;
-    border-bottom: 2px solid white;
 }
 
-#wrongLtrs {
-    border-right: 2px solid white;
-}
 
 /* buttons*/
 .get-word-box {
