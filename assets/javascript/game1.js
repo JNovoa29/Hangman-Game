@@ -122,12 +122,12 @@ $(document).ready(function () {
     })
 
 
-    // $(document).keypress(function (e) {
-    //     if (e.which == 13) {
-    //         $(".inputBTN").on()
-    //     }
-    //     console.log(keypress())
-    // })
+    $(document).on(function (e) {
+        if (e.which == 13) {
+            $(".inputBTN").on()
+        }
+        console.log(keypress())
+    })
 
     //checks and balances in events
     $("#inputBTN").on("click", function () {
